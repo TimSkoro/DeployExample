@@ -37,6 +37,10 @@ heroku create deploy-example
 ```
 * deploy
 ```
-heroku releases
 git push heroku master
 ```
+* migrations
+```
+heroku run python manage.py migrate
+```
+
